@@ -1,5 +1,5 @@
 configmap:
-  mongoURL: 848332098195.dkr.ecr.us-east-1.amazonaws.com/roboshop/catalogue
+  mongoURL: "mongodb://mongodb:27017/catalogue"
 deployment:
-  imageid: rajmdevops/catalogue
-  version: v1
+  imageid: 848332098195.dkr.ecr.us-east-1.amazonaws.com/roboshop/catalogue
+  version: IMAGE_VERSION
